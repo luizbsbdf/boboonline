@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Cleiton Construcoes</title>
+</head>
+<body>
+   
+    <header>
+        <div class="logo">
+            <img src="assets/img/logomo.png" alt="Logo">
+        </div>
+        <nav>
+            <a href="quem.html">Quem sou eu</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <section class="hero">
+        <div class="container">
+            <div class="texto">
+                <h1>Bem-vindo a Cleiton Construcoes</h1>
+                <p>Transformando projetos em realidade com qualidade, seguranca e compromisso.</p>
+
+                <h2>Quem Sou eu</h2>
+                <p>
+                    A Cleiton Construcoes atua no setor da construcao civil oferecendo solucoes completas
+                    para obras residenciais e comerciais.
+                </p>
+                <p>
+                    Nosso compromisso e garantir qualidade, eficiencia e satisfacao em cada projeto realizado.
+                </p>
+
+                <h2>Nossos Servicos</h2>
+                <ul>
+                    <li>Construcao de casas e predios</li>
+                    <li>Reformas e ampliacoes</li>
+                    <li>Gestao de obras</li>
+                    <li>Consultoria em construcao civil</li>
+                </ul>
+
+                <a href="quem.html" class="btn">Quem sou eu</a>
+            </div>
+
+            <img src="assets/img/bob 1.png" alt="Mascote da empresa">
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos em Destaque</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Residencia Familiar</h3>
+                <p>Construcao completa com acabamento de alto padrao.</p>
+            </div>
+
+            <div class="card">
+                <h3>Predio Comercial</h3>
+                <p>Reforma e modernizacao de estrutura empresarial.</p>
+            </div>
+
+            <div class="card">
+                <h3>Condominio</h3>
+                <p>Construcao de unidades residenciais padronizadas.</p>
+            </div>
+        </div>
+
+        <a href="projetos.html" class="btn">Ver todos os projetos</a>
+    </section>
+
+    <section id="contato">
+        <h2>Precisa de um orcamento?</h2>
+        <p>Entre em contato conosco e solicite um atendimento personalizado.</p>
+        <a href="contato.html" class="btn">Fale Conosco</a>
+    </section>
+    
+    <!--som inicial da pagina-->
+    <audio id="audio">
+    <source src="assets/audio/bemvindo.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+window.addEventListener("load", function () {
+    document.getElementById("audio").play();
+});
+</script>
+
+
+<audio id="audio" src="assets/audio/bemvindo.mp3"></audio>
+<script src="js/som.js"></script>
+
+
+    <!-- Rodape da pagina -->
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="assets/img/logomo.png" alt="Logo">
+                <h2>Cleiton Construcoes</h2>
+                <p>Construindo sonhos com qualidade e confianca.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Links</h3>
+                <a href="quem.html">Quem sou eu</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+            <div class="footer-contato">
+                <h3>Contato</h3>
+                <p>Email: contato@cleiton.com</p>
+                <p>WhatsApp: (77) 99999-9999</p>
+            </div>
+
+            <div class="footer-img">
+                <a href="naoabrir.html">
+                    <img src="assets/img/naoclicar.png" alt="Nao clicar">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Cleiton Construcoes - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>

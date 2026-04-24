@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+            <div class="logo">
+                <img src="assets/img/logomo.png" alt="Logo">
+            </div>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="quem.html">Quem sou eu</a>
+                <a href="projetos.html">Projetos</a>
+            </nav>
+        </header>
+
+    <section class="contato">
+
+        <h1>Fale Conosco</h1>
+        <p class="intro">
+            Entre em contato conosco para solicitar um orçamento ou tirar dúvidas.
+        </p>
+
+        <div class="container">
+
+            <!-- FORMULÁRIO -->
+            <form class="formulario">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu email" required>
+                <textarea placeholder="Sua mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <!-- INFORMAÇÕES -->
+            <div class="info">
+                <h2>Contato</h2>
+                <p>Email: contato@cleiton.com</p>
+                <p>WhatsApp: (77) 99999-9999</p>
+                <p>Localização: Bahia - Brasil</p>
+                <a href="https://wa.me/5577999999999" target="_blank" class="btn">link WhatsApp</a>
+            </div>
+
+        </div>
+
+    </section>
+
+      <!--som inicial da pagina-->
+    <audio id="audio">
+    <source src="assets/audio/entrecontato.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+        window.addEventListener("load", function () {
+            document.getElementById("audio").play();
+        });
+        </script>
+
+
+        <audio id="audio" src="assets/audio/entrecontato.mp3"></audio>
+        <script src="js/som.js"></script>
+
+    <!-- Rodape da pagina -->
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <img src="assets/img/logomo.png" alt="Logo">
+                <h2>Cleiton Construcoes</h2>
+                <p>Construindo sonhos com qualidade e confianca.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Links</h3>
+                <a href="quem.html">Quem sou eu</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+            <div class="footer-contato">
+                <h3>Contato</h3>
+                <p>Email: contato@cleiton.com</p>
+                <p>WhatsApp: (77) 99999-9999</p>
+            </div>
+
+            <div class="footer-img">
+                <a href="naoabrir.html">
+                    <img src="assets/img/naoclicar.png" alt="Nao clicar">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Cleiton Construcoes - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
